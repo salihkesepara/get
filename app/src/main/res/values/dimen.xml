@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ItemCardView -->
+    <dimen name="itemCardViewMargin">8dp</dimen>
+    <dimen name="itemCardViewHeight">200dp</dimen>
+</resources>
