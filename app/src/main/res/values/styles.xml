@@ -8,10 +8,11 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="itemNewsCardView">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">@dimen/itemCardViewHeight</item>
-        <item name="android:layout_margin">@dimen/itemCardViewMargin</item>
+    <style name="itemNewsTvItemTitle">
+        <item name="android:padding">@dimen/itemTvItemTitlePadding</item>
+        <item name="android:textSize">@dimen/itemTvItemTitleTextSize</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:background">@color/itemNewsTvItemTitle</item>
     </style>
 
 </resources>
