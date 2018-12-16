@@ -21,7 +21,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             android:src="@drawable/book"
-            android:contentDescription="@string/simpleDescriptionOfPhoe" />
+            android:contentDescription="@string/simpleDescriptionOfPhoto" />
 
         <TextView
             android:id="@+id/tvItemTitle"
