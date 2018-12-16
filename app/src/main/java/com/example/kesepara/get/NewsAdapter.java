@@ -64,7 +64,7 @@ public class NewsAdapter extends RecyclerView.Adapter<NewsAdapter.CardViewHolder
 
         public void setData(News selectedNews, int position) {
             this.tvItemTitle.setText(selectedNews.getTitle());
-            this.ivItemPhoto.setImageResource(selectedNews.getImgUrl());
+            new DownLoadImageTask(this.ivItemPhoto).execute(selectedNews.getSrc());
         }
 
         @Override
