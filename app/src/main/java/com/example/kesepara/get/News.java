@@ -8,12 +8,12 @@ public class News {
     private String title;
 
     /* The imageUrl of news */
-    private String imgUrl;
+    private int imgUrl;
 
     /* The link of news */
     private String link;
 
-    public News(int id, String title, String imgUrl, String link) {
+    public News(int id, String title, int imgUrl, String link) {
         this.id = id;
         this.title = title;
         this.imgUrl = imgUrl;
@@ -21,18 +21,18 @@ public class News {
     }
 
     public int getId() {
-        return id;
+        return this.id;
     }
 
     public String getTitle() {
-        return title;
+        return this.title;
     }
 
-    public String getImgUrl() {
-        return imgUrl;
+    public int getImgUrl() {
+        return this.imgUrl;
     }
 
     public String getLink() {
-        return link;
+        return this.link;
     }
 }

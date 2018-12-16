@@ -2,7 +2,7 @@
 <resources>
     <!-- ItemCardView -->
     <dimen name="itemCardViewMargin">8dp</dimen>
-    <dimen name="itemCardViewHeight">200dp</dimen>
+    <dimen name="itemCardViewHeight">230dp</dimen>
     <dimen name="zero">0dp</dimen>
     <dimen name="itemTvItemTitlePadding">8dp</dimen>
     <dimen name="itemTvItemTitleTextSize">19sp</dimen>

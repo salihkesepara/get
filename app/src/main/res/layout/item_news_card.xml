@@ -2,10 +2,10 @@
 <android.support.v7.widget.CardView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    app:cardCornerRadius="@dimen/cardview_default_radius"
     android:layout_width="match_parent"
+    app:cardCornerRadius="2dp"
     android:layout_height="@dimen/itemCardViewHeight"
-    android:layout_margin="@dimen/itemCardViewMargin">
+    android:layout_marginBottom="2dp">
 
     <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
