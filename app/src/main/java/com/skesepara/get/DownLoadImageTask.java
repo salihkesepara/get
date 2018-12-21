@@ -1,4 +1,4 @@
-package com.example.kesepara.get;
+package com.skesepara.get;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;

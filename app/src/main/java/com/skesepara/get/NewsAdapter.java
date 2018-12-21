@@ -1,4 +1,4 @@
-package com.example.kesepara.get;
+package com.skesepara.get;
 
 import android.content.Context;
 import android.support.annotation.NonNull;

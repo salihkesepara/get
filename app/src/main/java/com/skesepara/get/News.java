@@ -1,4 +1,4 @@
-package com.example.kesepara.get;
+package com.skesepara.get;
 
 public class News {
     /* The id of news */
